@@ -175,3 +175,27 @@ input[type="submit"] {
     padding: 10px 30px;
     cursor: pointer;
 }
+@media screen and (max-width:980px) {
+    .container {
+        width: 100%;
+    }
+    #main-container {
+        width: 95%;
+    }
+}
+@media screen and (max-width:768px) {
+    .container { 
+        width: 100%;
+    }
+    #main-container {
+        width: 85%;
+    }
+}
+@media screen and (max-width:640px) {
+    .container {
+        width: 100%;
+    }
+    #main-container {
+        width: 85%;
+    }
+}
